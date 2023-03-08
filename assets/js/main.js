@@ -15,3 +15,8 @@ var macyInstance = Macy({
         y: 36  
       }
   });
+
+// Modal work
+$('.modal__close-btn').click(function(){
+    $('.modal__work').removeClass('active')
+})
